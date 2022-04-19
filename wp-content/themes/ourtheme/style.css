@@ -1,8 +1,19 @@
 /* 
 Theme Name:    Unesco ASP
-Template:    inspiro
+Template:    Inspiro
 Version:      1.0.3
 Description:  inspiro
 Author:      Admin
 */
 
+.entry-title {
+  color: red;
+}
+
+.copyright {
+  display: none;
+}
+
+.copyright > span:nth-child(1) > a:nth-child(1) {
+  display: none;
+}
