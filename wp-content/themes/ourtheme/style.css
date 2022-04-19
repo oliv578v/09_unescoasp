@@ -1,10 +1,14 @@
 /* 
-Theme Name:    Unesco ASP
-Template:    Inspiro
-Version:      1.0.3
+Theme Name:    ourtheme
+Template:    inspiro
+Version:      1.0.0
 Description:  inspiro
 Author:      Admin
 */
+
+body {
+  background-color: blue;
+}
 
 .entry-title {
   color: red;
