@@ -97,6 +97,24 @@ text-align: center;
 section {
 padding: 0;
 }
+
+.elementor-element-d6bf876 {
+	grid-column: 1;
+}
+
+.elementor-element-a1a18ca {
+	grid-column: 1;
+}
+
+section.elementor-section:nth-child(2) > div:nth-child(1) {
+	max-width: 100%;
+padding-left: 8rem;
+}
+
+.elementor-element-a1a18ca > div:nth-child(1) > img:nth-child(1) {
+	max-width: 100%;
+}
+
 </style>
 
 </main><!-- #site-content -->
