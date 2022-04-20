@@ -1,11 +1,18 @@
 /* 
 Theme Name:    ourtheme
-Template:    inspiro
-Version:      1.0.0
-Description:  inspiro
+Template:    twentytwenty
+Version:      1.0.1
+Description:  twentytwenty
 Author:      Admin
 */
 
+h1.test {
+  color: red;
+}
+
+#post-9 > header > div > h1 {
+  font-size: 3rem;
+}
 body {
   background-color: blue;
 }
