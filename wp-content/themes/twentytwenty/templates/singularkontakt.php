@@ -15,7 +15,6 @@ get_header();
 <main id="site-content">
 
 	<?php
-    <h1>Test</h1>
 
 	if ( have_posts() ) {
 
