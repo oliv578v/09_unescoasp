@@ -51,14 +51,21 @@ section.elementor-section:nth-child(1) {
     .elementor-element-3558f3e {
 grid-column: 1/3;
 grid-row: 1;
-text-align: center;
+text-align: left;
+padding-left: 8rem;
+}
+
+}
+.section-inner.medium {
+  max-width: 1000rem;
 }
 
 .elementor-element-248486c {
 	grid-column: 1/3;
 	grid-row: 1;
-	text-align: center;
+	text-align: left;
 	margin-top: 15rem;
+	padding-left: 8rem;
 }
 
 .elementor-element-85566b3 {
@@ -170,16 +177,8 @@ section.elementor-section:nth-child(3) {
 	text-align: center;
 }
 
-div.elementor-col-33:nth-child(1) {
-	margin-right: 5rem;
-}
-
-div.elementor-column:nth-child(2) {
-	margin-right: 5rem;
-}
-
-div.elementor-column:nth-child(3) {
-	margin-right: 5rem;
+section.elementor-section:nth-child(5) > div:nth-child(1) {
+	gap: 5rem;
 }
 
 div.section-inner:nth-child(3) {
