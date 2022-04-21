@@ -85,7 +85,7 @@ padding-left: 8rem;
 }
 
 .entry-title {
-	color: #C41F33;
+	color: #c41f33;
 	text-align: left;
 }
 
@@ -236,6 +236,26 @@ section.elementor-section:nth-child(5) > div:nth-child(1) {
 .wp-image-482 {
 	margin-left: 8rem;
 	width: 20rem;
+}
+
+#site-footer {
+	display: none;
+}
+
+.footer-widgets-outer-wrapper {
+	border-bottom: none;
+}
+
+div.widget:nth-child(3) > div:nth-child(1) {
+	font-size: 1.5rem;
+}
+
+div.widget:nth-child(4) > div:nth-child(1) {
+font-size: 1.5rem;
+}
+
+div.widget:nth-child(5) > div:nth-child(1) {
+font-size: 1.5rem;
 }
 
 </style>
