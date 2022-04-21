@@ -6,6 +6,10 @@ Description:  twentytwenty
 Author:      Admin
 */
 
+* {
+  width: 100%;
+}
+
 h1.test {
   color: #c41f33;
 }
