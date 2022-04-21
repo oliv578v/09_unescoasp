@@ -84,6 +84,11 @@ padding-left: 8rem;
 	background-color: #ECE9E5;
 }
 
+.entry-title {
+	color: #C41F33;
+	text-align: left;
+}
+
 .entry-header {
 	background-color: #ECE9E5;
 }
@@ -183,6 +188,54 @@ section.elementor-section:nth-child(5) > div:nth-child(1) {
 
 div.section-inner:nth-child(3) {
 	display: none;
+}
+
+.elementor-kit-7 img {
+  opacity: 1;
+}
+
+.footer-widgets {
+  width: 100%;
+  display: flex;
+  margin-left: 0;
+  background-color: #c41f33;
+  color: #ffff;
+  gap: 7rem;
+}
+
+.footer-widgets-wrapper {
+display: grid;
+  grid-template-columns: 1fr;
+}
+
+.wp-container-3 > div:nth-child(1) > h2:nth-child(1) {
+	font-size: 2rem;
+	color: #ffff;
+}
+
+.footer-inner {
+	width: calc(100% - 0rem);
+}
+
+.footer-widgets-outer-wrapper {
+	padding: 0;
+}
+
+.footer-inner {
+	max-width: 1000rem;
+}
+
+section.elementor-section:nth-child(5) > div:nth-child(1) {
+	margin-inline: 8rem;
+}
+
+.elementor-element-bc5b2f0 > div:nth-child(1) > h2:nth-child(1) {
+	margin-inline: 8rem;
+}
+
+.wp-image-482 {
+	margin-left: 8rem;
+	width: 20rem;
 }
 
 </style>

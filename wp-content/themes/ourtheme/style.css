@@ -22,8 +22,6 @@ body {
 }
 
 .entry-header {
-  text-align: left;
-  max-width: 1000rem;
   color: #c41f33;
 }
 
@@ -33,4 +31,15 @@ body {
 
 .copyright > span:nth-child(1) > a:nth-child(1) {
   display: none;
+}
+
+.custom-logo {
+  opacity: 1;
+}
+.elementor-kit-7 img {
+  opacity: 1;
+}
+
+.site-logo {
+  opacity: 1;
 }
