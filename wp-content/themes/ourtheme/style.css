@@ -7,7 +7,7 @@ Author:      Admin
 */
 
 h1.test {
-  color: red;
+  color: #c41f33;
 }
 
 #post-9 > header > div > h1 {
@@ -18,7 +18,13 @@ body {
 }
 
 .entry-title {
-  color: red;
+  color: #c41f33;
+}
+
+.entry-header {
+  text-align: left;
+  max-width: 1000rem;
+  color: #c41f33;
 }
 
 .copyright {
