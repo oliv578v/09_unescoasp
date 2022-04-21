@@ -201,6 +201,7 @@ div.section-inner:nth-child(3) {
   background-color: #c41f33;
   color: #ffff;
   gap: 7rem;
+  padding-right: 5rem;
 }
 
 .footer-widgets-wrapper {
