@@ -6,17 +6,7 @@ Description:  twentytwenty
 Author:      Admin
 */
 
-body:not(.overlay-header) .primary-menu > li > a,
-body:not(.overlay-header) .primary-menu > li > .icon,
-.modal-menu a,
-.footer-menu a,
-.footer-widgets a,
-#site-footer .wp-block-button.is-style-outline,
-.wp-block-pullquote::before,
-.singular:not(.overlay-header) .entry-header a,
-.archive-header a,
-.header-footer-group .color-accent,
-.header-footer-group .color-accent-hover:hover {
+.header-titles {
   color: black;
   font-size: 16px;
 }
@@ -27,19 +17,6 @@ h1.test {
 
 #post-9 > header > div > h1 {
   font-size: 3rem;
-}
-body {
-  background-color: blue;
-}
-
-.entry-title {
-  color: #c41f33;
-}
-
-.entry-header {
-  text-align: left;
-  max-width: 1000rem;
-  color: #c41f33;
 }
 
 .copyright {
