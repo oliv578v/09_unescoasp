@@ -25,6 +25,9 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 /* header */
 
 /* oliver */
+.section-inner.medium {
+  max-width: 1000rem;
+}
 /* oliver */
 
 /* Mathea */

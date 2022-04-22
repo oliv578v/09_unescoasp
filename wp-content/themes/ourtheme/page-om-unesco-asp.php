@@ -56,8 +56,13 @@ padding-left: 8rem;
 }
 
 }
-.section-inner.medium {
-  max-width: 1000rem;
+
+.entry-title {
+	margin-left: 4.5rem;
+}
+
+.section-inner {
+	width: 1000rem;
 }
 
 .elementor-element-248486c {
