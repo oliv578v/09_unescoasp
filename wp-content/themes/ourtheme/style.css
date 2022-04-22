@@ -7,6 +7,20 @@ Author:      Admin
 */
 
 /* header */
+body:not(.overlay-header) .primary-menu > li > a,
+body:not(.overlay-header) .primary-menu > li > .icon,
+.modal-menu a,
+.footer-menu a,
+.footer-widgets a,
+#site-footer .wp-block-button.is-style-outline,
+.wp-block-pullquote::before,
+.singular:not(.overlay-header) .entry-header a,
+.archive-header a,
+.header-footer-group .color-accent,
+.header-footer-group .color-accent-hover:hover {
+  color: black;
+  font-size: 16px;
+}
 
 /* header */
 
@@ -81,6 +95,15 @@ div.widget:nth-child(5) > div:nth-child(1) {
 
 .footer-widgets-outer-wrapper {
   border-bottom: none;
+}
+
+.wp-image-482 {
+  margin-left: 8rem;
+  width: 20rem;
+}
+
+div.section-inner:nth-child(3) {
+  display: none;
 }
 
 /* footer */
