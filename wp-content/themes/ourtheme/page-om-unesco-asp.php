@@ -55,12 +55,6 @@ text-align: left;
 padding-left: 8rem;
 }
 
-}
-
-.entry-title {
-	margin-left: 4.5rem;
-}
-
 .section-inner {
 	width: 1000rem;
 }
@@ -92,6 +86,7 @@ padding-left: 8rem;
 .test4 .entry-title {
 	color: #c41f33;
 	text-align: left;
+	margin-left: 4.5rem;
 }
 
 .test4 .entry-header {
