@@ -80,33 +80,33 @@ padding-left: 8rem;
 	margin-top: 30rem;
 }
 
-#site-header {
+.test3 #site-header {
 	background-color: #ECE9E5;
 }
 
-.entry-title {
+.test3 .entry-title {
 	color: #c41f33;
 	text-align: left;
 }
 
-.entry-header {
+.test3 .entry-header {
 	background-color: #ECE9E5;
 }
 
-.post-inner {
+.test3 .post-inner {
 	padding-top: 0;
 }
 
-.singular .entry-header {
+.test3 .singular .entry-header {
 	padding: 0;
 	padding-top: 10rem;
 }
 
-.singular .entry-header {
+.test3 .singular .entry-header {
 	background-color: #ECE9E5;
 }
 
-section {
+.test3 section {
 padding: 0;
 }
 
@@ -226,7 +226,7 @@ display: grid;
 	max-width: 1000rem;
 }
 
-section.elementor-section:nth-child(5) > div:nth-child(1) {
+.test3 section.elementor-section:nth-child(5) > div:nth-child(1) {
 	margin-inline: 8rem;
 }
 
