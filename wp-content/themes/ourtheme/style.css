@@ -6,10 +6,23 @@ Description:  twentytwenty
 Author:      Admin
 */
 
-#post-9 > header > div > h1 {
-  font-size: 3rem;
-}
+/* header */
 
+/* header */
+
+/* oliver */
+/* oliver */
+
+/* Mathea */
+/* Mathea */
+
+/* Mikkel */
+/* Mikkel */
+
+/* Marie */
+/* Marie */
+
+/* footer */
 .copyright {
   display: none;
 }
@@ -69,3 +82,5 @@ div.widget:nth-child(5) > div:nth-child(1) {
 .footer-widgets-outer-wrapper {
   border-bottom: none;
 }
+
+/* footer */
