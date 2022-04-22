@@ -10,7 +10,12 @@
  */
 
 get_header();
+
 ?>
+<header>
+<link rel="stylesheet" href="https://use.typekit.net/dgu3gdk.css">
+</header>
+
 
 <main id="site-content" class="test3">
 
@@ -31,17 +36,8 @@ get_header();
 
  
 
-body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote::before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {
-  color: black;
-  font-size: 16px
-}
 
-  
- #site-header, .singular .entry-header, .entry-content   {
-     background-color: #ECE9E4; 
- }
 
-    
 
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 	max-width: 1000rem;
@@ -54,10 +50,17 @@ section {
 
  .entry-title {
   color: #5C9945;
+  
+font-family: macho, sans-serif;
 
+}
+
+.elementor-element-2ecc70db > div:nth-child(1) > h2:nth-child(3) {
+font-family: macho, sans-serif;
 }
 
  p {
       margin: 0;
+      font-size: 1.5rem;
   }
 </style>
