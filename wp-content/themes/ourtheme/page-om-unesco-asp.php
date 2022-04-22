@@ -80,7 +80,7 @@ padding-left: 8rem;
 	margin-top: 30rem;
 }
 
-.test4 #site-header {
+#site-header {
 	background-color: #ECE9E5;
 }
 
@@ -226,7 +226,7 @@ display: grid;
 	max-width: 1000rem;
 }
 
-.test3 section.elementor-section:nth-child(5) > div:nth-child(1) {
+section.elementor-section:nth-child(5) > div:nth-child(1) {
 	margin-inline: 8rem;
 }
 
