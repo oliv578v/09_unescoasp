@@ -6,8 +6,23 @@ Description:  twentytwenty
 Author:      Admin
 */
 
+body:not(.overlay-header) .primary-menu > li > a,
+body:not(.overlay-header) .primary-menu > li > .icon,
+.modal-menu a,
+.footer-menu a,
+.footer-widgets a,
+#site-footer .wp-block-button.is-style-outline,
+.wp-block-pullquote::before,
+.singular:not(.overlay-header) .entry-header a,
+.archive-header a,
+.header-footer-group .color-accent,
+.header-footer-group .color-accent-hover:hover {
+  color: black;
+  font-size: 16px;
+}
+
 h1.test {
-  color: red;
+  color: #c41f33;
 }
 
 #post-9 > header > div > h1 {
@@ -18,7 +33,13 @@ body {
 }
 
 .entry-title {
-  color: red;
+  color: #c41f33;
+}
+
+.entry-header {
+  text-align: left;
+  max-width: 1000rem;
+  color: #c41f33;
 }
 
 .copyright {
@@ -27,4 +48,56 @@ body {
 
 .copyright > span:nth-child(1) > a:nth-child(1) {
   display: none;
+}
+
+.footer-widgets {
+  width: 100%;
+  display: flex;
+  margin-left: 0;
+  background-color: #c41f33;
+  color: #ffff;
+  gap: 7rem;
+  padding-right: 5rem;
+}
+
+.footer-widgets-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.wp-container-3 > div:nth-child(1) > h2:nth-child(1) {
+  font-size: 2rem;
+  color: #ffff;
+}
+
+.footer-inner {
+  width: calc(100% - 0rem);
+}
+
+.footer-widgets-outer-wrapper {
+  padding: 0;
+}
+
+.footer-inner {
+  max-width: 1000rem;
+}
+
+div.widget:nth-child(3) > div:nth-child(1) {
+  font-size: 1.5rem;
+}
+
+div.widget:nth-child(4) > div:nth-child(1) {
+  font-size: 1.5rem;
+}
+
+div.widget:nth-child(5) > div:nth-child(1) {
+  font-size: 1.5rem;
+}
+
+#site-footer {
+  display: none;
+}
+
+.footer-widgets-outer-wrapper {
+  border-bottom: none;
 }
