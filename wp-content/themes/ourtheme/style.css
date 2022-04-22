@@ -27,7 +27,7 @@ h1.test {
   display: none;
 }
 
-.footer-widgets {
+.all .footer-widgets {
   width: 100%;
   display: flex;
   margin-left: 0;
@@ -77,4 +77,9 @@ div.widget:nth-child(5) > div:nth-child(1) {
 
 .footer-widgets-outer-wrapper {
   border-bottom: none;
+}
+
+.wp-image-482 {
+  margin-left: 8rem;
+  width: 20rem;
 }
