@@ -6,15 +6,6 @@ Description:  twentytwenty
 Author:      Admin
 */
 
-.header-titles {
-  color: black;
-  font-size: 16px;
-}
-
-h1.test {
-  color: #c41f33;
-}
-
 #post-9 > header > div > h1 {
   font-size: 3rem;
 }
