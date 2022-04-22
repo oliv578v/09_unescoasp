@@ -12,7 +12,7 @@
 get_header();
 ?>
 
-<main id="site-content" class="test3">
+<main id="site-content" class="test4">
 
 	<?php
 	if ( have_posts() ) {
@@ -80,33 +80,33 @@ padding-left: 8rem;
 	margin-top: 30rem;
 }
 
-.test3 #site-header {
+.test4 #site-header {
 	background-color: #ECE9E5;
 }
 
-.test3 .entry-title {
+.test4 .entry-title {
 	color: #c41f33;
 	text-align: left;
 }
 
-.test3 .entry-header {
+.test4 .entry-header {
 	background-color: #ECE9E5;
 }
 
-.test3 .post-inner {
+.test4 .post-inner {
 	padding-top: 0;
 }
 
-.test3 .singular .entry-header {
+.test4 .singular .entry-header {
 	padding: 0;
 	padding-top: 10rem;
 }
 
-.test3 .singular .entry-header {
+.test4 .singular .entry-header {
 	background-color: #ECE9E5;
 }
 
-.test3 section {
+.test4 section {
 padding: 0;
 }
 
