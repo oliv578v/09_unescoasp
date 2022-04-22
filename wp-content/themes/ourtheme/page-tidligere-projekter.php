@@ -12,7 +12,7 @@
 get_header();
 ?>
 
-<style>
+<style> 
 @media (min-width:800px){
   .liste {
   display: grid;
