@@ -97,4 +97,13 @@ div.widget:nth-child(5) > div:nth-child(1) {
   border-bottom: none;
 }
 
+.wp-image-482 {
+  margin-left: 8rem;
+  width: 20rem;
+}
+
+div.section-inner:nth-child(3) {
+  display: none;
+}
+
 /* footer */
