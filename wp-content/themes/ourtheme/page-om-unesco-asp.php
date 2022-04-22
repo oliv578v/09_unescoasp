@@ -200,7 +200,7 @@ div.section-inner:nth-child(3) {
   margin-left: 0;
   background-color: #c41f33;
   color: #ffff;
-  gap: 7rem;
+  gap: 15rem;
   padding-right: 5rem;
 }
 
@@ -237,6 +237,7 @@ section.elementor-section:nth-child(5) > div:nth-child(1) {
 .wp-image-482 {
 	margin-left: 8rem;
 	width: 20rem;
+	margin-top: 5rem;
 }
 
 #site-footer {
@@ -247,21 +248,42 @@ section.elementor-section:nth-child(5) > div:nth-child(1) {
 	border-bottom: none;
 }
 
-div.widget:nth-child(3) > div:nth-child(1) {
-	font-size: 1.5rem;
-}
-
-div.widget:nth-child(4) > div:nth-child(1) {
+.wp-container-3 > div:nth-child(1) > ul:nth-child(1) {
+	list-style: none;
 font-size: 1.5rem;
 }
 
-div.widget:nth-child(5) > div:nth-child(1) {
+div.widget:nth-child(3) > div:nth-child(1) > ul:nth-child(1) {
+	list-style: none;
 font-size: 1.5rem;
+}
+
+div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) {
+	list-style: none;
+font-size: 1.5rem;
+}
+
+div.widget:nth-child(2) {
+	margin-top: 1rem;
+}
+
+.widget {
+  margin-top: 10rem;
+}
+
+.footer-top {
+	display: none;
 }
 
 </style>
 
 </main><!-- #site-content -->
+
+<?php function remove_some_widgets(){
+    unregister_sidebar( 'div.widget:nth-child(5)' );
+}
+add_action( 'widgets_init', 'remove_some_widgets', 11 );
+?>
 
 <?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
 
