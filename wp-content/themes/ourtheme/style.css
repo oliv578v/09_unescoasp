@@ -76,6 +76,22 @@ div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) {
   border-bottom: none;
 }
 
+div.widget:nth-child(4)
+  > div:nth-child(1)
+  > ul:nth-child(1)
+  > li:nth-child(3)
+  > a:nth-child(1) {
+  color: #ffff;
+}
+
+div.widget:nth-child(4)
+  > div:nth-child(1)
+  > ul:nth-child(1)
+  > li:nth-child(3)
+  > a:nth-child(2) {
+  color: #ffff;
+}
+
 @media (min-width: 700px) {
   .footer-widgets {
     width: 100%;
@@ -137,22 +153,6 @@ div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) {
 
   .widget {
     margin-top: 10rem;
-  }
-
-  div.widget:nth-child(4)
-    > div:nth-child(1)
-    > ul:nth-child(1)
-    > li:nth-child(3)
-    > a:nth-child(1) {
-    color: #ffff;
-  }
-
-  div.widget:nth-child(4)
-    > div:nth-child(1)
-    > ul:nth-child(1)
-    > li:nth-child(3)
-    > a:nth-child(2) {
-    color: #ffff;
   }
 
   .has-normal-font-size > li:nth-child(1) {
