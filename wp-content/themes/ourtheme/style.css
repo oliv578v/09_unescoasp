@@ -54,19 +54,33 @@ div.widget:nth-child(3) > div:nth-child(1) > ul:nth-child(1),
 div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) {
   list-style: none;
   font-size: 1.5rem;
-  max-width: 18rem;
+  max-width: 40rem;
   width: 100%;
-  margin-left: 15rem;
+  padding-left: 15rem;
   margin-right: auto;
+  padding-bottom: 3rem;
 }
 
-.has-normal-font-size {
+[class*="__inner-container"]
+  > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
   list-style: none;
   font-size: 1.5rem;
-  max-width: 18rem;
+  max-width: 40rem;
   width: 100%;
-  margin-left: 15rem;
+  padding-left: 15rem;
   margin-right: auto;
+  padding-bottom: 3rem;
+}
+
+ul,
+ol {
+  margin: 0;
+}
+
+.wp-image-482 {
+  margin-left: 0rem;
+  padding-right: 2rem;
+  padding-bottom: 0;
 }
 
 .copyright {
@@ -108,6 +122,10 @@ div.widget:nth-child(4)
 .wp-container-3 > div:nth-child(1) > h2:nth-child(1) {
   font-size: 2rem;
   color: #ffff;
+}
+
+.has-normal-font-size > li:nth-child(1) {
+  font-size: 2rem;
 }
 
 div.widget:nth-child(4)
