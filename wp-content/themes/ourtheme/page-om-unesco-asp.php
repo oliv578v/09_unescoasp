@@ -34,11 +34,79 @@ get_header();
   padding: 0;
 }
 
+.entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+  max-width: 1000rem;
+  width: calc(100% - 0rem);
+} 
+
 .test4 .entry-title {
 	color: #c41f33;
 	text-align: center;
-	font-size: 50px;
+	font-size: 40px;
 }
+
+h2.elementor-heading-title:nth-child(2) {
+	text-align: center;
+}
+
+.elementor-element-248486c > div:nth-child(1) > p:nth-child(2) {
+	margin-left: auto;
+    margin-right: auto;
+    width: 24em
+}
+
+.elementor-element-321934f > div:nth-child(1) > h2:nth-child(1) {
+	text-align: center;
+}
+
+.elementor-element-d6bf876 > div:nth-child(1) > p:nth-child(1) {
+	margin-left: auto;
+    margin-right: auto;
+    width: 24em
+}
+
+.elementor-element-a5d08f7 > div:nth-child(1) > h2:nth-child(1) {
+	text-align: center;
+}
+
+.elementor-element-1de1fa6 > div:nth-child(1) > p:nth-child(1) {
+	margin-left: auto;
+    margin-right: auto;
+    width: 24em
+}
+
+.elementor-element-588a9f1 {
+	text-align: center;
+}
+
+section.elementor-section:nth-child(5) > div:nth-child(1) {
+	gap: 5rem;
+	margin-inline: 2rem;
+}
+
+.elementor-element-bc5b2f0 {
+	text-align: center;
+}
+
+section.elementor-section:nth-child(5) {
+margin-top: -6rem;
+}
+
+.elementor-element-b6a8f0e > div:nth-child(1) > h3:nth-child(1), .elementor-element-e588db0 > div:nth-child(1) > h3:nth-child(1), .elementor-element-82bc7f2 > div:nth-child(1) > h3:nth-child(1)  {
+	text-align: center;
+}
+
+.elementor-element-03b18e1 > div:nth-child(1) > p:nth-child(1), .elementor-element-8197e65 > div:nth-child(1) > p:nth-child(1), .elementor-element-b5845c5 > div:nth-child(1) > p:nth-child(1) {
+	margin-left: auto;
+    margin-right: auto;
+    width: 24em
+}
+
+
+.elementor-element-b2e81e1, .elementor-element-4869f5e, .elementor-element-3792f27 {
+	text-align: center;
+}
+
 
 div.section-inner:nth-child(3) {
 	display: none;
@@ -81,6 +149,10 @@ section.elementor-section:nth-child(3) {
 .entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 	max-width: 100%;
 	width: calc(100% - 0rem);
+}
+
+h2.elementor-heading-title:nth-child(2) {
+  text-align: left;
 }
 
     .elementor-column-gap-default > .elementor-column > .elementor-element-populated {
