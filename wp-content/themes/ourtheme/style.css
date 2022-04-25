@@ -54,6 +54,10 @@ div.widget:nth-child(3) > div:nth-child(1) > ul:nth-child(1),
 div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) {
   list-style: none;
   font-size: 1.5rem;
+  max-width: 18rem;
+  width: 100%;
+  margin-left: 15rem;
+  margin-right: auto;
 }
 
 .copyright {
