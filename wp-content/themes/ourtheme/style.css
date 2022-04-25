@@ -92,6 +92,11 @@ div.widget:nth-child(4)
   color: #ffff;
 }
 
+.wp-container-3 > div:nth-child(1) > h2:nth-child(1) {
+  font-size: 2rem;
+  color: #ffff;
+}
+
 @media (min-width: 700px) {
   .footer-widgets {
     width: 100%;
@@ -107,11 +112,6 @@ div.widget:nth-child(4)
   .footer-widgets-wrapper {
     display: grid;
     grid-template-columns: 1fr;
-  }
-
-  .wp-container-3 > div:nth-child(1) > h2:nth-child(1) {
-    font-size: 2rem;
-    color: #ffff;
   }
 
   .footer-inner {
