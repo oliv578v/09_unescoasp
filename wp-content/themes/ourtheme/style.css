@@ -168,8 +168,7 @@ div.widget:nth-child(4)
 
 @media (max-width: 600px) {
   .footer-widgets {
-    display: table-cell;
-    vertical-align: middle;
+    display: initial;
   }
 
   .has-normal-font-size,
