@@ -421,8 +421,8 @@ display: grid;
 	max-width: 1000rem;
 }
 
-.wp-image-482 {
-	margin-left: 8rem;
+.wp-image-1177 {
+	margin-left: 12rem;
 	width: 20rem;
 	margin-top: 7rem;
 }

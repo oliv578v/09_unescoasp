@@ -83,8 +83,14 @@ ol {
 }
 
 .wp-image-1177 {
-  margin-left: 8rem;
-  padding-bottom: 0;
+  margin-left: 4rem;
+  width: 20rem;
+  margin-top: 7rem;
+}
+
+.wp-block-image:not(.is-style-rounded) > a,
+.wp-block-image:not(.is-style-rounded) img {
+  margin-left: -1rem;
 }
 
 .copyright {
@@ -192,10 +198,16 @@ div.widget:nth-child(4)
     max-width: 1000rem;
   }
 
-  .wp-image-482 {
+  .wp-image-1177 {
     margin-left: 8rem;
     width: 20rem;
     margin-top: 7rem;
+  }
+
+  .wp-block-image:not(.is-style-rounded) > a,
+  .wp-block-image:not(.is-style-rounded) img {
+    margin-left: 12rem;
+    margin-top: 9rem;
   }
 
   .wp-container-3 > div:nth-child(1) > ul:nth-child(1) {
