@@ -158,4 +158,12 @@ li {
   line-height: 1;
 }
 
+div.widget:nth-child(4)
+  > div:nth-child(1)
+  > ul:nth-child(1)
+  > li:nth-child(2)
+  > a:nth-child(1) {
+  color: #ffff;
+}
+
 /* footer */
