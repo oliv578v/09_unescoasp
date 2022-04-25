@@ -150,7 +150,7 @@ margin-top: -6rem;
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
 
 .entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 	max-width: 100%;
@@ -168,7 +168,6 @@ h2.elementor-heading-title:nth-child(2) {
     .elementor-column-gap-default > .elementor-column > .elementor-element-populated {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
 }
 
     .elementor-element-3558f3e {
@@ -186,8 +185,18 @@ padding-left: 8rem;
 	grid-column: 1/3;
 	grid-row: 1;
 	text-align: left;
-	margin-top: 10rem;
+	margin-top: 12rem;
 	padding-left: 8rem;
+	max-width: 90rem;
+	margin-bottom: 5rem;
+}
+
+.elementor-element-1de1fa6 {
+	max-width: 55rem;
+}
+
+.elementor-element-1de1fa6 > div:nth-child(1) > p:nth-child(1) {
+	line-height: 2.5rem;
 }
 
 .elementor-element-85566b3 {
@@ -204,6 +213,7 @@ padding-left: 8rem;
 
 .elementor-element-248486c > div:nth-child(1) > p:nth-child(2) {
 	max-width: 100%;
+	line-height: 1.8;
 }
 
 .test4 .entry-title {
@@ -227,6 +237,12 @@ padding: 0;
 
 .elementor-element-d6bf876 {
 	grid-column: 1;
+	max-width: 100rem;
+}
+
+.elementor-element-d6bf876 > div:nth-child(1) > p:nth-child(1) {
+	line-height: 1.8;
+	margin-bottom: 5rem;
 }
 
 .elementor-element-a1a18ca {
@@ -275,6 +291,11 @@ margin-bottom: 10rem;
 .elementor-element-03b18e1 {
 	grid-column: 1/3;
 }
+.elementor-element-03b18e1 > div:nth-child(1) > p:nth-child(1) {
+	line-height: 2.5rem;
+	padding-bottom: 15rem;
+	max-width: 40rem;
+}
 
 .elementor-element-b2e81e1 {
 	grid-column: 1/3;
@@ -315,6 +336,20 @@ section.elementor-section:nth-child(5) > div:nth-child(1) {
 .elementor-element-bc5b2f0 > div:nth-child(1) > h2:nth-child(1) {
 	margin-inline: 8rem;
 }
+
+.elementor-element-8197e65 > div:nth-child(1) > p:nth-child(1) {
+	line-height: 2.5rem;
+	padding-bottom: 12rem;
+	max-width: 40rem;
+}
+
+.elementor-element-b5845c5 > div:nth-child(1) > p:nth-child(1) {
+	line-height: 2.5rem;
+	padding-bottom: 17rem;
+	max-width: 40rem;
+}
+
+/* footer */
 
 .footer-widgets {
   width: 100%;
@@ -400,6 +435,10 @@ div.widget:nth-child(4) {
 
 li {
 	line-height: 1;
+}
+
+div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1) {
+	color: #ffff;
 }
 
 }
