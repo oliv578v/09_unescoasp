@@ -170,7 +170,8 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 
 @media (max-width: 600px) {
   .footer-widgets {
-    display: initial;
+    display: table-cell;
+    vertical-align: middle;
   }
 
   .has-normal-font-size,
