@@ -107,7 +107,9 @@ margin-top: -3rem;
 }
 
 .elementor-element-a5d08f7 > div:nth-child(1) > h2:nth-child(1) {
-	text-align: center;
+	width: 12.5em;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .elementor-element-1de1fa6 > div:nth-child(1) > p:nth-child(1) {
@@ -146,6 +148,41 @@ margin-top: -6rem;
 
 .elementor-element-b2e81e1, .elementor-element-4869f5e, .elementor-element-3792f27 {
 	text-align: center;
+}
+
+.elementor-element-d6bf876 > div:nth-child(1) > p:nth-child(1) {
+	padding-bottom: 3rem;
+}
+
+.elementor-element-b5dbe06 > div:nth-child(1) > p:nth-child(1) {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	max-width: 24em;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.elementor-element-03b18e1 > div:nth-child(1) > p:nth-child(1) {
+	padding-bottom: 15rem;
+}
+
+.elementor-element-8197e65 > div:nth-child(1) > p:nth-child(1) {
+	padding-bottom: 15em;
+}
+
+.elementor-element-b5845c5 > div:nth-child(1) > p:nth-child(1) {
+	padding-bottom: 15em;
+}
+
+/* footer*/
+.footer-widgets {
+	display: table-cell;
+    vertical-align: middle
+}
+
+.has-normal-font-size, div.widget:nth-child(3) > div:nth-child(1) > ul:nth-child(1), div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) {
+	list-style: none;
+	font-size: 1.5rem;
 }
 
 }
