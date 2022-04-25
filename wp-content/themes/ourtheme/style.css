@@ -49,9 +49,18 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   vertical-align: middle;
 }
 
-.has-normal-font-size > li:nth-child(1),
+.has-normal-font-size,
 div.widget:nth-child(3) > div:nth-child(1) > ul:nth-child(1),
 div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) {
+  list-style: none;
+  font-size: 1.5rem;
+  max-width: 18rem;
+  width: 100%;
+  margin-left: 15rem;
+  margin-right: auto;
+}
+
+.has-normal-font-size {
   list-style: none;
   font-size: 1.5rem;
   max-width: 18rem;
