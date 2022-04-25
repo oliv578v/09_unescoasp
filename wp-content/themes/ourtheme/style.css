@@ -44,6 +44,38 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 /* Marie */
 
 /* footer */
+.footer-widgets {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.has-normal-font-size,
+div.widget:nth-child(3) > div:nth-child(1) > ul:nth-child(1),
+div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.copyright {
+  display: none;
+}
+
+.copyright > span:nth-child(1) > a:nth-child(1) {
+  display: none;
+}
+
+.footer-top {
+  display: none;
+}
+
+#site-footer {
+  display: none;
+}
+
+.footer-widgets-outer-wrapper {
+  border-bottom: none;
+}
+
 @media (min-width: 700px) {
   .footer-widgets {
     width: 100%;
@@ -146,38 +178,6 @@ body:not(.overlay-header) .primary-menu > li > .icon,
     > a:nth-child(1) {
     color: #ffff;
   }
-}
-
-.footer-widgets {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.has-normal-font-size,
-div.widget:nth-child(3) > div:nth-child(1) > ul:nth-child(1),
-div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) {
-  list-style: none;
-  font-size: 1.5rem;
-}
-
-.copyright {
-  display: none;
-}
-
-.copyright > span:nth-child(1) > a:nth-child(1) {
-  display: none;
-}
-
-.footer-top {
-  display: none;
-}
-
-#site-footer {
-  display: none;
-}
-
-.footer-widgets-outer-wrapper {
-  border-bottom: none;
 }
 
 /* footer */
