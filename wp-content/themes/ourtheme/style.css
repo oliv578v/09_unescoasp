@@ -68,6 +68,13 @@ body:not(.overlay-header) .primary-menu > li > .icon,
     font-size: 1.8rem;
     height: 10rem;
   }
+  .header-titles-wrapper {
+    justify-content: start;
+    padding: 0;
+  }
+  .mobile-search-toggle > span:nth-child(1) {
+    margin-left: 35rem;
+  }
 }
 
 /* header */
