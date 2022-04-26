@@ -108,6 +108,59 @@ button.toggle:nth-child(3) > span:nth-child(1) > span:nth-child(2) {
   display: none;
 }
 
+.copyright {
+  display: none;
+}
+
+.copyright > span:nth-child(1) > a:nth-child(1) {
+  display: none;
+}
+
+.footer-top {
+  display: none;
+}
+
+#site-footer {
+  display: none;
+}
+
+.footer-widgets-outer-wrapper {
+  border-bottom: none;
+}
+
+div.section-inner:nth-child(3) {
+  display: none;
+}
+
+div.widget:nth-child(4)
+  > div:nth-child(1)
+  > ul:nth-child(1)
+  > li:nth-child(3)
+  > a:nth-child(1) {
+  color: #ffff;
+}
+
+div.widget:nth-child(4)
+  > div:nth-child(1)
+  > ul:nth-child(1)
+  > li:nth-child(3)
+  > a:nth-child(2) {
+  color: #ffff;
+}
+
+.wp-container-3 > div:nth-child(1) > h2:nth-child(1) {
+  font-size: 2rem;
+  color: #ffff;
+}
+
+div.widget:nth-child(4)
+  > div:nth-child(1)
+  > ul:nth-child(1)
+  > li:nth-child(2)
+  > a:nth-child(1) {
+  color: #ffff;
+}
+
 @media (max-width: 600px) {
   .footer-nav-widgets-wrapper {
     background-color: #c41f33;
@@ -128,7 +181,7 @@ button.toggle:nth-child(3) > span:nth-child(1) > span:nth-child(2) {
     width: 100%;
     padding-left: 12rem;
     margin-right: auto;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 
   [class*="__inner-container"]
@@ -139,7 +192,7 @@ button.toggle:nth-child(3) > span:nth-child(1) > span:nth-child(2) {
     width: 100%;
     padding-left: 12rem;
     margin-right: auto;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 
   ul,
@@ -156,30 +209,6 @@ button.toggle:nth-child(3) > span:nth-child(1) > span:nth-child(2) {
   .wp-block-image:not(.is-style-rounded) > a,
   .wp-block-image:not(.is-style-rounded) img {
     margin-left: -1rem;
-  }
-
-  .copyright {
-    display: none;
-  }
-
-  .copyright > span:nth-child(1) > a:nth-child(1) {
-    display: none;
-  }
-
-  .footer-top {
-    display: none;
-  }
-
-  #site-footer {
-    display: none;
-  }
-
-  .footer-widgets-outer-wrapper {
-    border-bottom: none;
-  }
-
-  div.section-inner:nth-child(3) {
-    display: none;
   }
 
   div.widget:nth-child(4)
@@ -308,11 +337,11 @@ button.toggle:nth-child(3) > span:nth-child(1) > span:nth-child(2) {
   }
 
   div.widget:nth-child(3) {
-    padding-top: 4rem;
+    padding-top: 6rem;
   }
 
   div.widget:nth-child(4) {
-    padding-top: 4rem;
+    padding-top: 6rem;
   }
 
   li {
