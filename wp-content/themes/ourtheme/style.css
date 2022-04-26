@@ -49,6 +49,14 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 
 /* footer */
 
+button.toggle:nth-child(3) > span:nth-child(1) > span:nth-child(2) {
+  display: none;
+}
+
+.mobile-search-toggle > span:nth-child(1) > span:nth-child(2) {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .footer-nav-widgets-wrapper {
     background-color: #c41f33;
