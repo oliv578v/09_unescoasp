@@ -30,6 +30,25 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   display: none;
 }
 
+.search-modal .search-field {
+  border: none;
+  font-size: 1.8rem;
+  height: 5rem;
+}
+
+.search-modal.active {
+  left: 69%;
+}
+
+.search-modal {
+  background: none;
+  width: 33%;
+}
+
+.search-modal.active .search-modal-inner {
+  border-radius: 8px;
+}
+
 /* header */
 
 /* oliver */
