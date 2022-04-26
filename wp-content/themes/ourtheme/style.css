@@ -207,7 +207,7 @@ div.widget:nth-child(4)
   .wp-image-1177 {
     margin-left: 4rem;
     width: 20rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
 
   .wp-block-image:not(.is-style-rounded) > a,
@@ -256,7 +256,7 @@ div.widget:nth-child(4)
     margin-left: 0;
     background-color: #c41f33;
     color: #ffff;
-    gap: 15rem;
+    gap: 10rem;
     padding-right: 5rem;
     line-height: 0.5rem;
   }
@@ -270,6 +270,7 @@ div.widget:nth-child(4)
     padding-left: 0rem;
     margin-right: 0;
     padding-bottom: 0rem;
+    padding-top: 2rem;
   }
 
   .has-normal-font-size,
