@@ -11,7 +11,7 @@
 
 get_header();
 ?>
-
+<head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
 <main id="site-content" class="undervisning">
 
 	<?php
@@ -28,8 +28,6 @@ get_header();
 	?>
 
 </main><!-- #site-content -->
-
-<head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
 
 <?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
 
