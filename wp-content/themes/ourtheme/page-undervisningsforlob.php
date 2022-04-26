@@ -11,8 +11,9 @@
 
 get_header();
 ?>
-<head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
+
 <main id="site-content" class="undervisning">
+    <head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
 
 	<?php
 
