@@ -389,12 +389,12 @@ section.elementor-section:nth-child(5) > div:nth-child(1) {
 /* footer */
 
 .footer-widgets {
-  width: 100%;
+  width: 1000%;
   display: flex;
   margin-left: 0;
   background-color: #c41f33;
   color: #ffff;
-  gap: 15rem;
+  gap: 10rem;
   padding-right: 5rem;
   line-height: 0.5rem;
 }
@@ -402,6 +402,10 @@ section.elementor-section:nth-child(5) > div:nth-child(1) {
 .footer-widgets-wrapper {
 display: grid;
   grid-template-columns: 1fr;
+}
+
+.has-normal-font-size > li:nth-child(1) {
+	width: 1000%;
 }
 
 .wp-container-3 > div:nth-child(1) > h2:nth-child(1) {
