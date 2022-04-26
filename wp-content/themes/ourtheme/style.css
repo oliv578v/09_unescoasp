@@ -32,6 +32,10 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 .section-inner.medium {
   max-width: 1000rem;
 }
+
+.post-meta .meta-wrapper {
+  display: none;
+}
 /* oliver */
 
 /* Mathea */
