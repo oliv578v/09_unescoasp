@@ -26,6 +26,10 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   color: black;
 }
 
+.desktop-search-toggle > span:nth-child(1) > span:nth-child(2) {
+  display: none;
+}
+
 /* header */
 
 /* oliver */
