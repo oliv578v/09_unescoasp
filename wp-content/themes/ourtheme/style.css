@@ -36,10 +36,6 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   height: 5rem;
 }
 
-.search-modal.active {
-  left: 69%;
-}
-
 .search-modal.active .search-modal-inner {
   border-radius: 8px;
 }
@@ -49,12 +45,28 @@ body:not(.overlay-header) .primary-menu > li > .icon,
     background: none;
     width: 33%;
   }
+  .search-modal.active {
+    left: 69%;
+  }
+  .search-modal .search-field {
+    border: none;
+    font-size: 1.8rem;
+    height: 5rem;
+  }
 }
 
 @media (max-width: 600px) {
   .search-modal {
     background: none;
-    width: 66%;
+    width: 100%;
+  }
+  .search-modal.active {
+    left: 0%;
+  }
+  .search-modal .search-field {
+    border: none;
+    font-size: 1.8rem;
+    height: 10rem;
   }
 }
 
