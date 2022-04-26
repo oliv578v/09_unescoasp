@@ -40,6 +40,10 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   border-radius: 8px;
 }
 
+/* .search-toggle {
+  position: unset;
+} */
+
 @media (min-width: 600px) {
   .search-modal {
     background: none;
