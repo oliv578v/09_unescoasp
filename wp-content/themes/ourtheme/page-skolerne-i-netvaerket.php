@@ -215,7 +215,6 @@ get_header();
   background-color: #ece9e5;
   padding: 4.5rem;
   text-align: center;
-  padding-bottom: 13.5rem;
 }
 
 /* .skolerne .elementor-element-d9e0396 > div:nth-child(1) > p:nth-child(1) {
