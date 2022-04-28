@@ -17,7 +17,7 @@ get_header();
 </header>
 
 
-<main id="site-content" class="kontakt">
+<main id="kontakt" class="kontaktclass">
 
 	<?php
 	if ( have_posts() ) {

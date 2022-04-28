@@ -107,11 +107,11 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 
 /* Marie */
 
-.kontakt .section {
+#kontakt .section {
   padding: 0;
 }
 
-.kontakt .entry-title {
+#kontakt .entry-title {
   color: #5c9945;
 
   font-family: macho, sans-serif;
