@@ -93,10 +93,21 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 
 .section-inner.medium {
   max-width: 1000rem;
+  width: calc(100% - 0rem);
 }
 
 .post-meta .meta-wrapper {
   display: none;
+}
+
+.entry-title {
+  margin-left: 8.5rem;
+  text-align: left;
+}
+
+h1.entry-title,
+h2.entry-title {
+  margin-left: 8.5rem;
 }
 
 /* Mathea */

@@ -27,6 +27,12 @@ get_header();
 	}
 
 	?>
+<style>
+
+    .entry-title {
+  color: #276d9c;
+}
+</style>
 
 </main><!-- #site-content -->
 
