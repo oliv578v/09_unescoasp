@@ -28,6 +28,8 @@ get_header();
 	?>
 
     <style>
+
+        /* desktop*/
 .skolerne section.elementor-section:nth-child(1){
     background-color: #ECE9E5;
 }
@@ -205,6 +207,9 @@ margin-bottom: 3.5rem;
     padding: 4.5rem;
     text-align: center;
 }
+
+/* mobil */
+
     </style>
 
 </main><!-- #site-content -->
