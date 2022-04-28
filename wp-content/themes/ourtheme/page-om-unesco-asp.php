@@ -479,6 +479,10 @@ div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) >
 	color: #ffff;
 }
 
+.test4 .footer-widgets-outer-wrapper {
+	margin-top: 10rem;
+}
+
 }
 
 </style>
