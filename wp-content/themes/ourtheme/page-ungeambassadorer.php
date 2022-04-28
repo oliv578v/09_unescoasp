@@ -12,8 +12,13 @@
 get_header();
 ?>
 
+<<<<<<< HEAD
 <main id="site-content">
 
+=======
+<main id="site-content" class="ungeamb">
+<head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
+>>>>>>> 059eb0170ef5feb3e730f1f9e6692cac3ca6c3fb
 	<?php
 
 	if ( have_posts() ) {
@@ -27,6 +32,7 @@ get_header();
 
 	?>
 
+<<<<<<< HEAD
 </main><!-- #site-content -->
 
 <?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
@@ -66,3 +72,102 @@ font-family: macho, sans-serif;
       font-size: 1.5rem;
   }
 </style>
+=======
+    <style>
+
+        #site-header {
+	background-color: #ECE9E5;
+}
+
+        .ungeamb .entry-header {
+            background-color: #ECE9E5;
+        }
+
+        .ungeamb .entry-title {
+            color: #c41f33;
+            font-family: macho, sans-serif;
+            text-align: left;
+        }
+
+        .ungeamb .elementor-kit-7 h1 {
+            font-family: macho, sans-serif;
+        }
+
+        .ungeamb .entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+  max-width: 1000rem;
+  width: calc(100% - 0rem);
+}
+
+.elementor-element-c1552ac > div:nth-child(1) > img:nth-child(2) {
+    max-width: 103%;
+}
+
+.elementor-35 .elementor-element.elementor-element-523d8af {
+  width: 33.783%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.elementor-element-b2f612d > div:nth-child(1) > h2:nth-child(2) {
+    margin-left: 2.5rem;
+}
+
+.elementor-element-d7a612d > div:nth-child(1) > h3:nth-child(1) {
+    margin-left: 2.5rem;
+}
+
+div.elementor-element:nth-child(3) > div:nth-child(1) {
+    margin-left: 2.5rem;
+}
+
+div.elementor-element:nth-child(4) > div:nth-child(1) > h3:nth-child(1){
+    margin-left: 2.5rem;
+}
+
+div.elementor-element:nth-child(5) > div:nth-child(1) > p:nth-child(1) {
+    margin-left: 2.5rem;
+}
+
+.elementor-element-29ad697 > div:nth-child(1) > p:nth-child(1) {
+    max-width: 60rem;
+    margin-left: auto;
+margin-right: auto;
+}
+
+.elementor-element-4ceab26 > div:nth-child(1) > h3:nth-child(1) {
+    max-width: 60rem;
+    margin-left: auto;
+margin-right: auto;
+}
+
+.elementor-element-4083914 > div:nth-child(1) > img:nth-child(1) {
+    margin-left: 5rem;
+}
+
+.elementor-35 .elementor-element.elementor-element-c846a80 {
+  width: 80%;
+  max-width: 80%;
+  align-self: end;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.elementor-element-665ac62 > div:nth-child(1) > h3:nth-child(1){
+    max-width: 112rem;
+margin-left: auto;
+margin-right: auto;
+}
+
+.elementor-element-f7f921c > div:nth-child(1) > p:nth-child(1) {
+    max-width: 112rem;
+margin-left: auto;
+margin-right: auto;
+}
+    </style>
+
+</main><!-- #site-content -->
+
+<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
+
+<?php get_footer(); ?>
+>>>>>>> 059eb0170ef5feb3e730f1f9e6692cac3ca6c3fb

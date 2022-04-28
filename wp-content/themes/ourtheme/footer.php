@@ -12,6 +12,8 @@
  */
 
 ?>
+<head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
+
 			<footer id="site-footer" class="header-footer-group">
 
 				<div class="section-inner">
@@ -52,7 +54,7 @@
 					</a><!-- .to-the-top -->
 
 				</div><!-- .section-inner -->
-
+				
 			</footer><!-- #site-footer -->
 
 		<?php wp_footer(); ?>
