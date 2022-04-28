@@ -29,7 +29,7 @@ get_header();
 	?>
 <style>
 
-    .entry-title {
+h1.entry-title, h2.entry-title {
   color: #276d9c;
 }
 </style>
