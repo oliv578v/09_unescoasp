@@ -374,6 +374,10 @@ div.widget:nth-child(4)
   .footer-top-hidden #site-footer {
     margin-top: 0rem;
   }
+
+  .test4 .footer-widgets-outer-wrapper {
+    margin-top: 10rem;
+  }
 }
 
 /* footer */
