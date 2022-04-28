@@ -83,7 +83,14 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 
 /* header */
 
-/* oliver */
+/* all */
+
+.entry-content
+  > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+  max-width: 1000rem;
+  width: calc(100% - 0rem);
+}
+
 .section-inner.medium {
   max-width: 1000rem;
 }
@@ -91,6 +98,9 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 .post-meta .meta-wrapper {
   display: none;
 }
+
+/* oliver */
+
 /* oliver */
 
 /* Mathea */
