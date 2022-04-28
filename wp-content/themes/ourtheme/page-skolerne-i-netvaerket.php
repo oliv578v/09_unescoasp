@@ -30,11 +30,11 @@ get_header();
     <style>
 
         /* desktop*/
-.skolerne section.elementor-section:nth-child(1){
+#site-header {
     background-color: #ECE9E5;
 }
 
-#site-header {
+.skolerne section.elementor-section:nth-child(1){
     background-color: #ECE9E5;
 }
 
@@ -128,81 +128,81 @@ margin-left: 6rem;
     line-height: 2.5;
 }
 
-.elementor-element-e2c8337 > div:nth-child(1) > p:nth-child(1) {
+.skolerne .elementor-element-e2c8337 > div:nth-child(1) > p:nth-child(1) {
     padding-bottom: 5rem;
 }
 
-.elementor-element-3635135 {
+.skolerne .elementor-element-3635135 {
     margin-top: 4.8rem;
     background-color: #ECE9E5;
     padding-left: 6rem;
 }
 
-.elementor-element-e2c8337 > div:nth-child(1) > p:nth-child(1) {
+.skolerne .elementor-element-e2c8337 > div:nth-child(1) > p:nth-child(1) {
     margin-top: 5rem;
     background-color: #ECE9E5;
 }
 
-.elementor-element-d9e0396 > div:nth-child(1) > p:nth-child(1) {
+.skolerne.elementor-element-d9e0396 > div:nth-child(1) > p:nth-child(1) {
     padding-bottom: 32rem;
     text-align: center;
 }
 
-.elementor-element-6dd696c > div:nth-child(1) > p:nth-child(1) {
+.skolerne .elementor-element-6dd696c > div:nth-child(1) > p:nth-child(1) {
     padding-bottom: 5rem;
     background-color: #ECE9E5;
 }
 
-.elementor-element-3635135 > div:nth-child(1) > p:nth-child(2) {
+.skolerne .elementor-element-3635135 > div:nth-child(1) > p:nth-child(2) {
     margin-bottom: -0.5rem;
     padding-box: 2.5rem;
 }
 
-.elementor-element-b1c702c {
+.skolerne .elementor-element-b1c702c {
     margin-top: 6rem;
 }
-.elementor-element-63ababb > div:nth-child(1) > p:nth-child(1) {
-    margin-top: 6rem;
-    margin-bottom: 12rem;
-    text-align: center;
-}
-
-.elementor-element-babe2f9 > div:nth-child(1) > p:nth-child(1) {
+.skolerne .elementor-element-63ababb > div:nth-child(1) > p:nth-child(1) {
     margin-top: 6rem;
     margin-bottom: 12rem;
     text-align: center;
 }
 
-.elementor-33 .elementor-element.elementor-element-b1c702c {
+.skolerne .elementor-element-babe2f9 > div:nth-child(1) > p:nth-child(1) {
+    margin-top: 6rem;
+    margin-bottom: 12rem;
+    text-align: center;
+}
+
+.skolerne .elementor-33 .elementor-element.elementor-element-b1c702c {
 margin-bottom: 3.5rem;
 }
 
-.elementor-element-3635135 > div:nth-child(1) p {
+.skolerne .elementor-element-3635135 > div:nth-child(1) p {
     line-height: 2.5;
 }
 
-.elementor-element-b1c702c > div:nth-child(1) p {
+.skolerne .elementor-element-b1c702c > div:nth-child(1) p {
     line-height: 2.5;
     margin-bottom: 1.5rem;
     margin-left: 6rem;
 }
 
-.elementor-element-6ee1b9d > div:nth-child(1) p {
+.skolerne .elementor-element-6ee1b9d > div:nth-child(1) p {
     line-height: 2.5;
 }
 
-.elementor-element-69baaee {
+.skolerne .elementor-element-69baaee {
     background-color: #ECE9E5;
     padding: 4.5rem;
     text-align: center;
 }
 
-.elementor-element-6ee1b9d  {
+.skolerne .elementor-element-6ee1b9d  {
     background-color: #ECE9E5;
     padding-left: 6rem;
 }
 
-.elementor-element-26fd58d {
+.skolerne .elementor-element-26fd58d {
     background-color: #ECE9E5;
     padding: 4.5rem;
     text-align: center;

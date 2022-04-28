@@ -52,53 +52,53 @@ get_header();
   width: calc(100% - 0rem);
 }
 
-.elementor-element-c1552ac > div:nth-child(1) > img:nth-child(2) {
+.ungeamb .elementor-element-c1552ac > div:nth-child(1) > img:nth-child(2) {
     max-width: 103%;
 }
 
-.elementor-35 .elementor-element.elementor-element-523d8af {
+.ungeamb .elementor-35 .elementor-element.elementor-element-523d8af {
   width: 33.783%;
   margin-right: auto;
   margin-left: auto;
 }
 
-.elementor-element-b2f612d > div:nth-child(1) > h2:nth-child(2) {
+.ungeamb .elementor-element-b2f612d > div:nth-child(1) > h2:nth-child(2) {
     margin-left: 2.5rem;
 }
 
-.elementor-element-d7a612d > div:nth-child(1) > h3:nth-child(1) {
+.ungeamb .elementor-element-d7a612d > div:nth-child(1) > h3:nth-child(1) {
     margin-left: 2.5rem;
 }
 
-div.elementor-element:nth-child(3) > div:nth-child(1) {
+.ungeamb div.elementor-element:nth-child(3) > div:nth-child(1) {
     margin-left: 2.5rem;
 }
 
-div.elementor-element:nth-child(4) > div:nth-child(1) > h3:nth-child(1){
+.ungeamb div.elementor-element:nth-child(4) > div:nth-child(1) > h3:nth-child(1){
     margin-left: 2.5rem;
 }
 
-div.elementor-element:nth-child(5) > div:nth-child(1) > p:nth-child(1) {
+.ungeamb div.elementor-element:nth-child(5) > div:nth-child(1) > p:nth-child(1) {
     margin-left: 2.5rem;
 }
 
-.elementor-element-29ad697 > div:nth-child(1) > p:nth-child(1) {
+.ungeamb .elementor-element-29ad697 > div:nth-child(1) > p:nth-child(1) {
     max-width: 60rem;
     margin-left: auto;
 margin-right: auto;
 }
 
-.elementor-element-4ceab26 > div:nth-child(1) > h3:nth-child(1) {
+.ungeamb .elementor-element-4ceab26 > div:nth-child(1) > h3:nth-child(1) {
     max-width: 60rem;
     margin-left: auto;
 margin-right: auto;
 }
 
-.elementor-element-4083914 > div:nth-child(1) > img:nth-child(1) {
+.ungeamb .elementor-element-4083914 > div:nth-child(1) > img:nth-child(1) {
     margin-left: 5rem;
 }
 
-.elementor-35 .elementor-element.elementor-element-c846a80 {
+.ungeamb .elementor-35 .elementor-element.elementor-element-c846a80 {
   width: 80%;
   max-width: 80%;
   align-self: end;
@@ -106,13 +106,13 @@ margin-right: auto;
   margin-right: auto;
 }
 
-.elementor-element-665ac62 > div:nth-child(1) > h3:nth-child(1){
+.ungeamb .elementor-element-665ac62 > div:nth-child(1) > h3:nth-child(1){
     max-width: 112rem;
 margin-left: auto;
 margin-right: auto;
 }
 
-.elementor-element-f7f921c > div:nth-child(1) > p:nth-child(1) {
+.ungeamb .elementor-element-f7f921c > div:nth-child(1) > p:nth-child(1) {
     max-width: 112rem;
 margin-left: auto;
 margin-right: auto;
