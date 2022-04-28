@@ -99,10 +99,6 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   display: none;
 }
 
-/* oliver */
-
-/* oliver */
-
 /* Mathea */
 /* Mathea */
 
@@ -110,6 +106,16 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 /* Mikkel */
 
 /* Marie */
+
+.kontakt .section {
+  padding: 0;
+}
+
+.kontakt .entry-title {
+  color: #5c9945;
+
+  font-family: macho, sans-serif;
+}
 /* Marie */
 
 /* footer */

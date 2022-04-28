@@ -31,27 +31,3 @@ get_header();
 	}
 
 	?>
-
-<style>
-
- 
-
-
-
-
-
-
-section {
-    padding: 0;
-}
-
- .kontakt .entry-title {
-  color: #5C9945;
-  
-font-family: macho, sans-serif;
-
-}
-
-
-
-</style>
