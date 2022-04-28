@@ -415,14 +415,11 @@ display: grid;
 
 .footer-inner {
 	width: calc(100% - 0rem);
+	max-width: 100%;
 }
 
 .footer-widgets-outer-wrapper {
 	padding: 0;
-}
-
-.footer-inner {
-	max-width: 1000rem;
 }
 
 .wp-image-1177 {

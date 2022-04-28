@@ -1,7 +1,7 @@
 /* 
 Theme Name:    ourtheme
 Template:    twentytwenty
-Version:      1.0.1
+Version:      1.0.3
 Description:  twentytwenty
 Author:      Admin
 */
@@ -269,7 +269,7 @@ div.widget:nth-child(4)
     > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
     list-style: none;
     font-size: 1.5rem;
-    max-width: 100rem;
+    max-width: 100%;
     width: 100%;
     padding-left: 0rem;
     margin-right: 0;
@@ -282,7 +282,7 @@ div.widget:nth-child(4)
   div.widget:nth-child(4) > div:nth-child(1) > ul:nth-child(1) {
     list-style: none;
     font-size: 1.5rem;
-    max-width: 100rem;
+    max-width: 100%;
     width: 100%;
     padding-left: 0rem;
     margin-right: 0;
@@ -296,14 +296,11 @@ div.widget:nth-child(4)
 
   .footer-inner {
     width: calc(100% - 0rem);
+    max-width: 100%;
   }
 
   .footer-widgets-outer-wrapper {
     padding: 0;
-  }
-
-  .footer-inner {
-    max-width: 100%;
   }
 
   .wp-image-1177 {
@@ -366,6 +363,16 @@ div.widget:nth-child(4)
   }
   .has-normal-font-size > li:nth-child(1) {
     width: 100%;
+  }
+
+  .reduced-spacing.footer-top-visible .footer-nav-widgets-wrapper,
+  .reduced-spacing.footer-top-hidden #site-footer {
+    border-top-width: 0rem;
+  }
+
+  .footer-top-visible .footer-nav-widgets-wrapper,
+  .footer-top-hidden #site-footer {
+    margin-top: 0rem;
   }
 }
 

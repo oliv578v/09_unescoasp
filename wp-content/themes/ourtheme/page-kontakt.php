@@ -48,7 +48,7 @@ section {
     padding: 0;
 }
 
- .entry-title {
+ .test3 .entry-title {
   color: #5C9945;
   
 font-family: macho, sans-serif;
