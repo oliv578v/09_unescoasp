@@ -48,6 +48,7 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   .search-modal {
     background: none;
     width: 33%;
+    top: 62px;
   }
   .search-modal.active {
     left: 69%;
@@ -56,6 +57,15 @@ body:not(.overlay-header) .primary-menu > li > .icon,
     border: none;
     font-size: 1.8rem;
     height: 5rem;
+  }
+  .search-modal.active .search-modal-inner {
+    transform: translateX(-100%);
+  }
+  .search-modal-inner {
+    transform: translateX(-10%);
+  }
+  .admin-bar .search-modal.active {
+    top: 62px;
   }
 }
 
@@ -93,10 +103,21 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 
 .section-inner.medium {
   max-width: 1000rem;
+  width: calc(100% - 0rem);
 }
 
 .post-meta .meta-wrapper {
   display: none;
+}
+
+.entry-title {
+  margin-left: 8.5rem;
+  text-align: left;
+}
+
+h1.entry-title,
+h2.entry-title {
+  margin-left: 8.5rem;
 }
 
 /* Mathea */

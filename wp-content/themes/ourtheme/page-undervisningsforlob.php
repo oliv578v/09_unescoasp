@@ -27,6 +27,12 @@ get_header();
 	}
 
 	?>
+<style>
+
+h1.entry-title, h2.entry-title {
+  color: #276d9c;
+}
+</style>
 
 </main><!-- #site-content -->
 
