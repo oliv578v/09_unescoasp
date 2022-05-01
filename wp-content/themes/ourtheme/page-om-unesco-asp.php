@@ -53,6 +53,13 @@ get_header();
 .omunesco section.elementor-section:nth-child(3) {
 	background-color: #ECE9E5;
 }
+.omunesco .entry-title {
+	color: #c41f33;
+	text-align: center;
+	font-size: 8rem;
+	font-family:"macho",sans-serif;
+}
+
 
 @media (max-width: 600px) {
 .omunesco .entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
@@ -60,11 +67,6 @@ get_header();
   width: calc(100% - 0rem);
 } 
 
-.omunesco .entry-title {
-	color: #c41f33;
-	text-align: center;
-	font-size: 40px;
-}
 
 .omunesco h2.elementor-heading-title:nth-child(2) {
 	text-align: center;

@@ -12,6 +12,13 @@
 get_header();
 ?>
 
+<style>
+	h1.entry-title{
+		font-family:"macho",sans-serif;
+		color:#276D9C;
+	}
+</style>
+
 <main id="site-content" class="undervisning">
     <head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
 
@@ -27,12 +34,7 @@ get_header();
 	}
 
 	?>
-<style>
 
-h1.entry-title, h2.entry-title {
-  color: #276d9c;
-}
-</style>
 
 </main><!-- #site-content -->
 

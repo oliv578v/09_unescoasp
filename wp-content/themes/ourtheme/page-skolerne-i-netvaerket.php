@@ -62,6 +62,7 @@ get_header();
   color: #c41f33;
   text-align: left;
   margin-left: 5rem;
+  font-family:"macho",sans-serif;
 }
 
 .skolerne .singular .entry-header {
