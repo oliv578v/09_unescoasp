@@ -25,11 +25,13 @@ get_header();
     #projekter h1.entry-title{
         text-align:left;
         color:#c41f33;
+        font-family:"macho",sans-serif;
     }
 
 </style>
 
 <main id="projekter">
+     <head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
 
 	<?php
 

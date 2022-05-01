@@ -12,22 +12,17 @@
 get_header();
 ?>
 <style>
-#post-74 > div.post-inner.thin > div{
+.medlemskab #post-74 > div.post-inner.thin > div{
     background-color:#ECE9E5;
 }
 
-#medlemskab .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide){
-    margin-left:3.5rem;
-    max-width:63rem;
-}
-#medlemskab h1.entry-title{
+.medlemskab h1.entry-title{
     color: #276D9C;
     text-align: left;
-    margin-left: 3.5rem;
-    font-size: 6rem;
+    font-family:"macho",sans-serif;
 }
 
-#medlemskab p{
+.medlemskab p, li{
     font-family:"Roboto",sans-serif;
 }
 
@@ -65,10 +60,17 @@ get_header();
         margin-top:-15rem;
         background-color:#ECE9E5;
     }*/
+
+
     
 </style>
+<header>
+<link rel="stylesheet" href="https://use.typekit.net/dgu3gdk.css">
 
-<main id="medlemskab">
+</header>
+
+<main id="site-section" class="medlemskab">
+     <head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
 
 	<?php
 

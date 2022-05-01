@@ -12,17 +12,12 @@
 get_header();
 ?>
 <style>
-    /*----h1---*/
-    #medlem_tilskud h1.entry-title {
-        color: #276D9C;
-		font-family:"macho",sans-serif;
+    .internationalt h1.entry-title{
+        color:#c41f33;
+        font-family:"macho",sans-serif;
     }
-
-
 </style>
-
-<main id="medlem_tilskud">
-     <head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
+<main id="site-content" class="internationalt">
 
 	<?php
 

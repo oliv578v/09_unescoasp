@@ -12,11 +12,7 @@
 get_header();
 ?>
 <style>
-	/*--rykket paragraf og h2 ind til venstre--*/
-	#post-81 > div.post-inner.thin > div > p:nth-child(2), #post-81 > div.post-inner.thin > div > h2{
-		margin-left:2rem;
-		max-width:70rem;
-	}
+
 	/*--styling til forms---*/
 	div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms-container-full .wpforms-form select.wpforms-field-medium, div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium{
 		max-width:100%;
@@ -31,7 +27,6 @@ get_header();
 		border:none;
 	}
 	#wpforms-submit-954{
-		margin-left:22rem;
 		background-color:#276d9c;
 		border-radius:100px;
 		color:white;
@@ -39,22 +34,30 @@ get_header();
 
 	}
 	/*--baggrundsfarve til header---*/
-	#upload .entry-content{
+	.upload .entry-content{
 		background-color:#ECE9E5;
 	}
-	#post-81 > header{
+
+	.upload header{
 	background-color:#ECE9E5;
 	}
 
 	/*--ændret font på p--*/
-	#upload p, #wpforms-859, #wpforms-954 {
+	.upload p, #wpforms-859, #wpforms-954 {
 		font-family:"Roboto",sans-serif;
+	}
+
+	/*-- h1 farveændring---*/
+	.upload h1.entry-title{
+		color:#276d9c;
+		font-family:"macho",sans-serif;
 	}
 	
 
 </style>
 
-<main id="upload">
+<main id="site-content" class="upload">
+	 <head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
 
 	<?php
     

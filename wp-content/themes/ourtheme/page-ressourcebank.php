@@ -15,9 +15,15 @@ get_header();
     #post-85 > div.post-inner.thin > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-e5b7d8c.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default{
         border:solid 2px #276d9c;
     }
+	.ressourcebank h1.entry-title{
+		color:#276d9c;
+		font-family:"macho",sans-serif;
+	}
+
 </style>
 
-<main id="site-content">
+<main id="site-content" class="ressourcebank">
+	 <head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
 
 	<?php
 
